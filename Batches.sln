@@ -1,0 +1,40 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hangfire", "Hangfire", "{357CD02D-1937-4F78-B3BE-8A3429315939}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FluentScheduler", "FluentScheduler", "{9CEFDDC7-40C2-485E-91CE-9B8937A877F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Win32", "Win32", "{8AC2098C-E876-4CD3-9954-D083FCF29DE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service.WindowsService", "Service.WindowsService\Service.WindowsService.csproj", "{56246C90-DDF8-4C6D-8F97-2FBEEA2EA6DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Batches.Hangfire", "Batches.Hangfire\Batches.Hangfire.csproj", "{59E44461-C19E-47F0-B8C9-2F2C2E58F79A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Batches.FluentScheduler", "Batches.FluentScheduler\Batches.FluentScheduler.csproj", "{64175BF8-01AE-4AAB-97E4-72E85D0CF0FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56246C90-DDF8-4C6D-8F97-2FBEEA2EA6DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56246C90-DDF8-4C6D-8F97-2FBEEA2EA6DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56246C90-DDF8-4C6D-8F97-2FBEEA2EA6DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56246C90-DDF8-4C6D-8F97-2FBEEA2EA6DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59E44461-C19E-47F0-B8C9-2F2C2E58F79A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59E44461-C19E-47F0-B8C9-2F2C2E58F79A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59E44461-C19E-47F0-B8C9-2F2C2E58F79A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59E44461-C19E-47F0-B8C9-2F2C2E58F79A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64175BF8-01AE-4AAB-97E4-72E85D0CF0FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64175BF8-01AE-4AAB-97E4-72E85D0CF0FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64175BF8-01AE-4AAB-97E4-72E85D0CF0FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64175BF8-01AE-4AAB-97E4-72E85D0CF0FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{56246C90-DDF8-4C6D-8F97-2FBEEA2EA6DC} = {8AC2098C-E876-4CD3-9954-D083FCF29DE8}
+		{59E44461-C19E-47F0-B8C9-2F2C2E58F79A} = {357CD02D-1937-4F78-B3BE-8A3429315939}
+		{64175BF8-01AE-4AAB-97E4-72E85D0CF0FA} = {9CEFDDC7-40C2-485E-91CE-9B8937A877F6}
+	EndGlobalSection
+EndGlobal
